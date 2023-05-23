@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<SplitPane dividerPositions="0.4051841746248295" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="459.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="457.0" prefWidth="310.0" style="-fx-background-color: #012d37;">
+         <children>
+            <ImageView fitHeight="130.0" fitWidth="206.0" layoutX="54.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/logos/logo_hotel_blanco_gallery~~628e7edc1e349.png" />
+               </image>
+            </ImageView>
+            <Text fill="#dcae56" layoutX="66.0" layoutY="220.0" strokeType="OUTSIDE" strokeWidth="0.0" text="¡Bienvenido!" wrappingWidth="185.71427917480463">
+               <font>
+                  <Font name="System Bold" size="28.0" />
+               </font>
+            </Text>
+            <TextFlow layoutX="50.0" layoutY="235.0" prefHeight="170.0" prefWidth="218.0">
+               <children>
+                  <Text fill="#fffce5" strokeType="OUTSIDE" strokeWidth="0.0" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore" wrappingWidth="203.671875" />
+               </children>
+            </TextFlow>
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="457.0" prefWidth="350.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Button fx:id="btn1" layoutX="145.0" layoutY="349.0" mnemonicParsing="false" onMouseClicked="#hide" prefHeight="35.0" prefWidth="143.0" style="-fx-background-color: #013f4d;" text="Ingresar" textFill="#dcae56">
+               <font>
+                  <Font name="System Bold Italic" size="22.0" />
+               </font>
+            </Button>
+            <ComboBox layoutX="179.0" layoutY="261.0" prefHeight="20.0" prefWidth="76.0" promptText="Rol" />
+            <TextField layoutX="133.0" layoutY="144.0" prefHeight="26.0" prefWidth="193.0" />
+            <TextField layoutX="133.0" layoutY="203.0" prefHeight="26.0" prefWidth="193.0" />
+            <Text layoutX="133.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Identificaión" wrappingWidth="131.9375" />
+            <Text layoutX="133.0" layoutY="199.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña" wrappingWidth="131.9375" />
+            <Button layoutX="265.0" layoutY="28.0" mnemonicParsing="false" text="Continuar sin identificarse " />
+            <Label fx:id="text1" layoutX="185.0" layoutY="426.0" text="OCULTAR" />
+         </children>
+      </AnchorPane>
+  </items>
+</SplitPane>

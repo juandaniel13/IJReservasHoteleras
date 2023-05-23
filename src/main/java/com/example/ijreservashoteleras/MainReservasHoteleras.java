@@ -15,7 +15,7 @@ public class MainReservasHoteleras extends Application {
 
     @Override
     public void start(Stage primaryStage)  throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/vista/principal.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/com/example/vista/ingreso.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         primaryStage.setTitle("Hello!");
         primaryStage.setScene(scene);
